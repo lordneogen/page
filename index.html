@@ -5,10 +5,16 @@
     <title>Ramzes Kusanov</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-    <script src="index.js"></script>
+    <script defer  src="index.js"></script>
 </head>
 <body>
 <div class="resume">
+    <div class="language-selector">
+        <select id="language">
+            <option value="en">Eng</option>
+            <option value="ru">Рус</option>
+        </select>
+    </div>
     <div class="base">
         <div class="profile">
             <div class="photo">
@@ -16,174 +22,268 @@
                 <i class="fas fa-mug-hot"></i>
             </div>
             <div class="info">
-                <h1 class="name">Kusanov Ramzes</h1>
-                <h2 class="job">Full-stack engineer / Game developer</h2>
+                <h1 class="name" data-translate="name">Kusanov Ramzes</h1>
+                <h2 class="job" data-translate="job">Full-stack engineer / Game developer</h2>
             </div>
         </div>
         <div class="about">
             <div class="circle">
                 <img src="photo.jpg" alt="Картинка">
             </div>
-
-            <h3>About Me</h3>            <p>I am a Full-stack engineer with expertise in backend development, some experience in frontend, and a strong foundation in DevOps. Skilled in Django, FastAPI, Flask, adaptive design, and prototyping. Ready to learn and grow further in the field of software development.</p>
-
+            <h3 data-translate="aboutTitle">About Me</h3>
+            <p data-translate="aboutText">
+                I am a Full-stack engineer with expertise in backend development, some experience in frontend, and a strong foundation in DevOps...
+            </p>
         </div>
         <div class="contact">
             <h3>Contact Me</h3>
-            <div class="call"><a href="tel:+77055730601"><i class="fas fa-phone"></i><span>+7 (705) 573-06-01</span></a></div>
-            <div class="email"><a href="mailto:kustonio703@gmail.com"><i class="fas fa-envelope"></i><span>kustonio703@gmail.com</span></a></div>
-            <div class="website"><a href="https://github.com/lordneogen" target="_blank"><i class="fab fa-github"></i><span>GitHub: lordneogen</span></a></div>
-            <div class="telegram"><a href="https://t.me/dojannus1" target="_blank"><i class="fab fa-telegram"></i><span>Telegram: @dojannus1</span></a></div>
+            <div class="call">
+                <a href="tel:+77055730601">
+                    <i class="fas fa-phone"></i>
+                    <span>+7 (705) 573-06-01</span>
+                </a>
+            </div>
+            <div class="email">
+                <a href="mailto:kustonio703@gmail.com">
+                    <i class="fas fa-envelope"></i>
+                    <span>kustonio703@gmail.com</span>
+                </a>
+            </div>
+            <div class="website">
+                <a href="https://github.com/lordneogen" target="_blank">
+                    <i class="fab fa-github"></i>
+                    <span>GitHub: lordneogen</span>
+                </a>
+            </div>
+            <div class="telegram">
+                <a href="https://t.me/dojannus1" target="_blank">
+                    <i class="fab fa-telegram"></i>
+                    <span>Telegram: @dojannus1</span>
+                </a>
+            </div>
+            <div class="linkedin">
+                <a href="https://www.linkedin.com/in/%D1%80%D0%B0%D0%BC%D0%B7%D0%B5%D1%81-%D0%BA%D1%83%D1%81%D0%B0%D0%BD%D0%BE%D0%B2-bb3397279/" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                    <span>LinkedIn: Рамзес Кусанов</span>
+                </a>
+            </div>
         </div>
-<!--        <div class="follow">-->
-<!--            <h3>Follow Me</h3>-->
-<!--            <div class="box">-->
-<!--                <a href="https://www.facebook.com/astronaomical/" target="_blank"><i class="fab fa-facebook"></i></a>-->
-<!--                <a href="https://www.instagram.com/astronaomical/" target="_blank"><i class="fab fa-instagram "></i></a>-->
-<!--                <a href="https://www.pinterest.com/astronaomical/" target="_blank"><i class="fab fa-pinterest"></i></a>-->
-<!--                <a href="https://www.linkedin.com/in/naomi-weatherford-758385112/" target="_blank"><i class="fab fa-linkedin"></i></a>-->
-<!--                <a href="https://codepen.io/astronaomical/" target="_blank"><i class="fab fa-codepen"></i></a>-->
-<!--                <a href="https://www.behance.net/astronaomical" target="_blank"><i class="fab fa-behance"></i></a>-->
-<!--            </div>-->
-<!--        </div>-->
+
     </div>
     <div class="func">
         <div class="work">
-            <h3><i class="fa fa-briefcase"></i>Experience</h3>
-            <ul>
-                <li>
-                    <span>Full-stack, DevOps</span><br>
+            <div class="row"><h3><i class="fa fa-briefcase"></i></h3><h3 data-translate="experienceTitle">Experience</h3></div>
 
-                    <small>Kazakh National Agrarian University</small><br>
-
-                    <small>February 2024 - Present</small><br>
-
-                    <small>Docker,Nginx,Next.js,Spring,Java</small>
-                </li>
-                <li>
-                    <span>Helpdesk specialist</span><br>
-
-                    <small>Freedom Insurance</small><br>
-
-                    <small>June 2024 - July 2024</small><br>
-
-                    <small>Linux,Windows</small>
-                </li>
-                <li>
-                    <span>Full-stack Developer</span><br>
-                    <small>Freelance</small><br>
-                    <small>January 2022 - November 2023</small>
-                </li>
-                <li>
-                    <span>Full-stack Developer</span><br>
-
-                    <small>Enactus: Eventi</small><br>
-
-                    <small>June 2023 - October 2023</small><br>
-
-                    <small>Nest.js</small>
-                </li>
+            <ul id="experienceList">
+                <!-- Элементы опыта будут добавлены динамически -->
             </ul>
         </div>
         <div class="edu">
-            <h3><i class="fa fa-graduation-cap"></i>Education</h3>
-            <ul>
-                <li>
-                    <span>Computer hardware and software</span><br>
-                    <span>Вычислительная техника и программное обеспечение</span>
-                    <small>Kazakh-British Technical University</small><br>
-                    <small>Казахстанско-Британский технический университет</small><br>
-                    <small>GPA: 3.30</small><br>
-                    <small>2021 - 2025</small>
-
-                </li>
+            <div class="row"><h3><i class="fa fa-graduation-cap"></i></h3><h3 data-translate="educationTitle">Experience</h3></div>
+            <ul id="educationList">
+                <!-- Элементы образования будут добавлены динамически -->
             </ul>
         </div>
         <div class="skills-prog">
-            <h3><i class="fas fa-code"></i>Programming Skills</h3>
-            <p>
+            <div class="row"><h3><i class="fas fa-code"></i></h3><h3 data-translate="skills">Experience</h3></div>
+<!--            <h3 data-translate="skills"><i class="fas fa-code"></i>Programming Skills</h3>-->
+            <p data-translate="skill1">
                 Опыт работы с базами данных SQLite и PostgreSQL для эффективного хранения и управления данными.
             </p>
-            <p>
+            <p data-translate="skill2">
                 Исследование и применение основ машинного обучения и глубокого обучения с использованием библиотек TensorFlow и PyTorch для создания нейронных сетей.
             </p>
-            <p>
+            <p data-translate="skill3">
                 Внедрение основ DevOps практик,CI\CD с использованием инструментов автоматизации сборки и развертывания, таких как GitLab CI.
             </p>
-            <p>
+            <p data-translate="skill4">
                 Разработка веб-приложений с использованием языка Python и фреймворка Django,FastApi,Flask, а также фронтенд-фреймворка React а именно Next.js и Nest.js используя преимущественно TypeScript.
             </p>
             <br>
-            <p>
-                Experience with SQLite and PostgreSQL databases for efficient data storage and management.
-            </p>
-            <p>
-                Researching and applying the fundamentals of machine learning and deep learning using libraries such as TensorFlow and PyTorch to build neural networks.
-            </p>
-            <p>
-                Implementation of basic DevOps practices and CI/CD using automation tools like GitLab CI for build and deployment workflows.
-            </p>
-            <p>
-                Development of web applications using Python and frameworks such as Django, FastAPI, and Flask, as well as the React frontend framework, particularly Next.js and Nest.js, primarily utilizing TypeScript.
-            </p>
         </div>
 
         <div class="skills-soft">
-            <h3><i class="fas fa-bezier-curve"></i>Projects</h3>
-            <p>
+            <div class="row"> <h3><i class="fas fa-bezier-curve"></i></h3><h3 data-translate="projects"><i class="fas fa-bezier-curve"></i>Projects</h3></div>
+            <p data-translate="project1">
                 Цифровая система прослеживаемости семян
             </p>
-            <a>https://kbtu.kaznaru.edu.kz/</a>
+            <a href="https://kbtu.kaznaru.edu.kz/" data-translate="project1Link">https://kbtu.kaznaru.edu.kz/</a>
             <br>
             <div class="projects">
-                <img src="project1.png" alt="Картинка">
+                <img src="project1.png" alt="Картинка" data-translate="project1ImageAlt">
             </div>
             <br>
-            <p>
+            <p data-translate="project2">
                 EVENTI Place – приложение, где собраны все IT-события страны (проект закрыт)
             </p>
-            <a>https://er10.kz/read/it-novosti/eventi-place-prilozhenie-gde-sobrany-vse-it-sobytija-strany/</a>
+            <a href="https://er10.kz/read/it-novosti/eventi-place-prilozhenie-gde-sobrany-vse-it-sobytija-strany/"
+               data-translate="project2Link">
+                https://er10.kz/read/it-novosti/eventi-place-prilozhenie-gde-sobrany-vse-it-sobytija-strany/
+            </a>
             <br>
             <div class="projects">
-                <img src="project2.jpg" alt="Картинка">
+                <img src="project2.jpg" alt="Картинка" data-translate="project2ImageAlt">
             </div>
             <br>
         </div>
 
         <div class="skills-soft">
-            <h3><i class="fas fa-bezier-curve"></i>Scientific articles</h3>
-            <p>
+            <div class="row"> <h3><i class="fas fa-bezier-curve"></i></h3><h3 data-translate="scientificArticles">Scientific articles</h3></div>
+            <p data-translate="article1">
                 Введение новых ембедингов для LLM модели.
             </p>
-            <a href="Solution_Paper_Artificial_Intelligence_Based_Virtual_Social_Companion.pdf">Solution Paper: Artificial Intelligence-Based Virtual Social
-                Companion Technologies: The Impact of Tags, Instructions,
-                Descriptions, and the Prospects of Introducing Emotional</a>
+            <a href="Solution_Paper_Artificial_Intelligence_Based_Virtual_Social_Companion.pdf"
+               data-translate="article1Link">
+                Solution Paper: Artificial Intelligence-Based Virtual Social Companion Technologies
+            </a>
             <br>
         </div>
 
         <div class="skills-soft">
-            <h3><i class="fas fa-bezier-curve"></i>Pet-projects</h3>
-            <p>
+            <div class="row"> <h3><i class="fas fa-bezier-curve"></i></h3><h3 data-translate="petProjects"><i class="fas fa-bezier-curve"></i>Pet-projects</h3></div>
+            <p data-translate="petProject1">
                 Цифровая система менеджмента ресурсов на основе PPO и SAC
             </p>
-            <a>https://github.com/lordneogen/RL-resource-managment</a>
+            <a href="https://github.com/lordneogen/RL-resource-managment" data-translate="petProject1Link">
+                https://github.com/lordneogen/RL-resource-managment
+            </a>
             <br>
-            <p>
+            <p data-translate="petProject2">
                 fine-tuning LLM модели для RP проекта
             </p>
-            <a>https://github.com/lordneogen/NECO-LLM-ALGO</a>
+            <a href="https://github.com/lordneogen/NECO-LLM-ALGO" data-translate="petProject2Link">
+                https://github.com/lordneogen/NECO-LLM-ALGO
+            </a>
             <br>
-            <p>
+            <p data-translate="petProject3">
                 Игровой проект 2048-3D
             </p>
-            <a>https://github.com/lordneogen/2048-3D</a>
-            <p>
+            <a href="https://github.com/lordneogen/2048-3D" data-translate="petProject3Link">
+                https://github.com/lordneogen/2048-3D
+            </a>
+            <p data-translate="petProject4">
                 Проект на основе Django и React с обучением игры в выбор
             </p>
-            <a>https://github.com/lordneogen/KingAI</a>
+            <a href="https://github.com/lordneogen/KingAI" data-translate="petProject4Link">
+                https://github.com/lordneogen/KingAI
+            </a>
             <br>
         </div>
+
     </div>
-</div>
+<script>
+    // script.js
+    document.addEventListener("DOMContentLoaded", () => {
+        const languageSelector = document.getElementById("language");
+        const elementsToTranslate = {
+            title: document.getElementById("title"),
+            description: document.getElementById("description"),
+        };
+
+        // Загрузка переводов
+        fetch("translations.json")
+            .then((response) => response.json())
+            .then((translations) => {
+                // Функция для смены языка
+                const changeLanguage = (lang) => {
+                    const translation = translations[lang];
+                    if (translation) {
+                        elementsToTranslate.title.textContent = translation.title;
+                        elementsToTranslate.description.textContent = translation.description;
+                    }
+                };
+
+                // Обработчик события для выбора языка
+                languageSelector.addEventListener("change", (event) => {
+                    const selectedLanguage = event.target.value;
+                    changeLanguage(selectedLanguage);
+                });
+
+                // Устанавливаем язык по умолчанию
+                changeLanguage(languageSelector.value);
+            })
+            .catch((error) => console.error("Ошибка загрузки переводов:", error));
+    });
+    document.addEventListener("DOMContentLoaded", () => {
+        const languageSelector = document.getElementById("language");
+        const elementsToTranslate = document.querySelectorAll("[data-translate]");
+
+        fetch("translations.json")
+            .then((response) => response.json())
+            .then((translations) => {
+                const changeLanguage = (lang) => {
+                    elementsToTranslate.forEach((element) => {
+                        const key = element.getAttribute("data-translate");
+                        if (translations[lang][key]) {
+                            element.textContent = translations[lang][key];
+                        }
+                    });
+                };
+
+                languageSelector.addEventListener("change", (event) => {
+                    changeLanguage(event.target.value);
+                });
+
+                changeLanguage(languageSelector.value);
+            })
+            .catch((error) => console.error("Error loading translations:", error));
+    });
+    document.addEventListener("DOMContentLoaded", () => {
+        const languageSelector = document.getElementById("language");
+
+        fetch("translations.json")
+            .then((response) => response.json())
+            .then((translations) => {
+                const experienceList = document.getElementById("experienceList");
+                const educationList = document.getElementById("educationList");
+
+                const changeLanguage = (lang) => {
+                    const data = translations[lang];
+
+                    // Обновление заголовков
+                    document.querySelector("[data-translate='experienceTitle']").textContent = data.experienceTitle;
+                    document.querySelector("[data-translate='educationTitle']").textContent = data.educationTitle;
+
+                    // Обновление опыта
+                    experienceList.innerHTML = "";
+                    data.experienceItems.forEach((item) => {
+                        const li = document.createElement("li");
+                        li.innerHTML = `
+            <span>${item.title}</span><br>
+            <small>${item.company}</small><br>
+            <small>${item.period}</small><br>
+            <small>${item.skills}</small>
+          `;
+                        experienceList.appendChild(li);
+                    });
+
+                    // Обновление образования
+                    educationList.innerHTML = "";
+                    data.educationItems.forEach((item) => {
+                        const li = document.createElement("li");
+                        li.innerHTML = `
+            <span>${item.title}</span><br>
+            <span>${item.translation}</span><br>
+            <small>${item.university}</small><br>
+            <small>${item.universityTranslation}</small><br>
+            <small>${item.gpa}</small><br>
+            <small>${item.period}</small>
+          `;
+                        educationList.appendChild(li);
+                    });
+                };
+
+                // Слушатель смены языка
+                languageSelector.addEventListener("change", (event) => {
+                    changeLanguage(event.target.value);
+                });
+
+                // Установка языка по умолчанию
+                changeLanguage(languageSelector.value);
+            })
+            .catch((error) => console.error("Error loading translations:", error));
+    });
+
+</script>
 </body>
 </html>
