@@ -620,7 +620,7 @@ h3 {
     text-transform: none;
 }
 .contact {
-    font-size: 0.75vw;
+    font-size: 1vw;
     white-space: nowrap; /* Запрет переноса текста на следующую строку */
     overflow: hidden; /* Обрезает текст, если он выходит за пределы контейнера */
     text-overflow: ellipsis; /* Добавляет многоточие в конце текста при переполнении */
