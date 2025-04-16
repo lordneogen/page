@@ -5,8 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5c371316-d2d7-4e2b-8ffd-55fdf466b0e1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/1c336f8c-16dd-48af-88b1-7d91c8b8fe7a_removalai_preview-gigapixel-cgi-6x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Без и3434мени-gigapixel-standard-6x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Без им2323ени-gigapixel-standard-6x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Без им3434ени-gigapixel-standard-6x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Снимок экрана 2025-03-23 130949.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Снимок экрана 2025-03-28 115602.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Снимок экрана 2025-04-14 151156.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/translations.json" beforeDir="false" afterPath="$PROJECT_DIR$/translations.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +63,7 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-WS-242.21829.149" />
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-WS-242.23726.96" />
       </set>
     </attachedChunks>
   </component>
@@ -70,7 +78,9 @@
       <workItem from="1735899512798" duration="2367000" />
       <workItem from="1736191681991" duration="2103000" />
       <workItem from="1736235117087" duration="19590000" />
-      <workItem from="1736495181079" duration="2812000" />
+      <workItem from="1736495181079" duration="4712000" />
+      <workItem from="1744625444680" duration="8917000" />
+      <workItem from="1744804808027" duration="730000" />
     </task>
     <servers />
   </component>
