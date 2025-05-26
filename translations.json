@@ -76,7 +76,7 @@
     "petProject1Link": "https://github.com/lordneogen/RL-resource-managment",
     "petProject2": "Fine-tuning an LLM model for an RP project",
     "petProject2Link": "https://github.com/lordneogen/NECO-LLM-ALGO",
-    "petProject3": "2048-3D game project",
+    "petProject3": "2048-3D game project used ComfyUI",
     "petProject3Link": "https://github.com/lordneogen/2048-3D",
     "petProject4": "A project based on Django and React with game decision training",
     "petProject4Link": "https://github.com/lordneogen/KingAI",
@@ -84,7 +84,7 @@
     "petProject6":" [GAME JAM GAME]\n                King of the Hill is a survival game where you play as a monster who must survive 100 days on top of an island while fighting other monsters.",
     "petProject7":"                Development of a Pipeline for Training Manipulator Agents in Virtual Environments and Transferring Their Skills to Real-World Conditions\n",
     "petProject8":"                VR game about fire safety (link private)\n",
-    "petProject9":"                Narrative game about human rights (was a designer) (link private)\n"
+    "petProject9":"                Narrative game about human rights (was a designer) (link private) used ComfyUI \n"
   },
   "ru": {
     "name": "Кусанов Рамзес",
@@ -163,7 +163,7 @@
     "petProject1Link": "https://github.com/lordneogen/RL-resource-managment",
     "petProject2": "Файн-тюнинг LLM модели для RP проекта",
     "petProject2Link": "https://github.com/lordneogen/NECO-LLM-ALGO",
-    "petProject3": "Игровой проект 2048-3D",
+    "petProject3": "Игровой проект 2048-3D использовал ComfyUI",
     "petProject3Link": "https://github.com/lordneogen/2048-3D",
     "petProject4": "Проект на основе Django и React с обучением игры в выбор",
     "petProject4Link": "https://github.com/lordneogen/KingAI",
@@ -171,6 +171,6 @@
     "petProject6":"[ИГРА ДЛЯ GAME JAM]\n                Король горы: игра на выживание, где вы играете за монстра, который должен продержаться 100 дней на вершине острова, сражаясь с другими чудовищами.",
     "petProject7":"                Разработка конвейера для обучения агентов-манипуляторов в виртуальной среде и переноса их навыков в реальные условия\n",
     "petProject8":"                VR-игра о пожарной безопасности (ссылка закрыта)\n",
-    "petProject9":"                Нарративная игра о правах человека (участвовал в роли дизайнера) (ссылка закрыта)\n"
+    "petProject9":"                Нарративная игра о правах человека (участвовал в роли дизайнера) (ссылка закрыта) использовал ComfyUI\n"
   }
 }
