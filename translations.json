@@ -1,7 +1,7 @@
 {
   "en": {
     "name": "Kusanov Ramzes",
-    "job": "Back-end - ML engineer / Game developer",
+    "job": "Back-end - ML developer / Game developer",
     "aboutTitle": "About Me",
     "aboutText": "I am a Full-stack engineer with experience in backend development, some experience in frontend and a base in DevOps. Skills in Django, FastAPI, Flask, Spring and ML training, adaptive design and prototyping. Ready to learn and grow further in the field of software development. I also have experience in Unity and ML development.",
     "contactTitle": "Contact Me",
@@ -88,7 +88,7 @@
   },
   "ru": {
     "name": "Кусанов Рамзес",
-    "job": "Back-end - ML инженер / Разработчик игр",
+    "job": "Back-end - ML разработчик / Разработчик игр",
     "aboutTitle": "Обо мне",
     "aboutText": "Я Full-stack инженер с опытом бэкенд-разработки, некоторым опытом фронтенд-разработки и базой в DevOps. Навыки в Django, FastAPI, Flask, Spring и обучение ML, адаптивный дизайн и прототипирование. Готов учиться и расти дальше в области разработки ПО. У меня также есть опыт в Unity и ML-разработке.",
     "contactTitle": "Контакты",
